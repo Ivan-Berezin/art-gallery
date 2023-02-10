@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(252, 0, 0);
+    background-color: red;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -12,14 +12,39 @@ h1, h2{
 }
 
 img{
-    width: 500px;
+    width: 42%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+audio{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: red;
+  }
+
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-timeline-container,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-volume-slider-container,
+audio::-webkit-media-controls-volume-slider{
+    color:red;
+    font-size: 0px;
+}
+
 p{
     font-size: 24px;
     
+}
+
+.credits{
+    font-size: 12px;
 }
